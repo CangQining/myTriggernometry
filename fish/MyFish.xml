@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<TriggernometryExport Version="1">
+  <ExportedFolder Id="14302ce9-62bb-4272-ba61-517067c40fcd" Name="反复钓鱼用" Enabled="true">
+    <Folders>
+      <Folder Id="73c561da-0f14-477d-81c0-50aeb1cca45e" Name="非收藏品钓鱼" Enabled="false">
+        <Folders />
+        <Triggers>
+          <Trigger Enabled="false" Name="中竿" Id="d475b4a2-a0a6-4d8d-b628-52c60d07796b" RegularExpression="{&quot;type&quot;:2}">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="中杆提钩" UseTTSVolumeExpression="99" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="2" KeypressType="WindowMessage" KeyPressCode="57" KeyPressWindow="最终幻想XIV" Enabled="False" ActionType="KeyPress" ExecutionDelayExpression="350">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="3" KeypressType="WindowMessage" KeyPressCode="56" KeyPressWindow="最终幻想XIV" ActionType="KeyPress" ExecutionDelayExpression="100">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="4" KeypressType="WindowMessage" KeyPressCode="52" KeyPressWindow="最终幻想XIV" ActionType="KeyPress" ExecutionDelayExpression="100">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="5" KeypressType="WindowMessage" KeyPressCode="50" KeyPressWindow="最终幻想XIV" ActionType="KeyPress" ExecutionDelayExpression="9000">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="6" KeypressType="WindowMessage" KeyPressCode="50" KeyPressWindow="最终幻想XIV" ActionType="KeyPress" ExecutionDelayExpression="3000">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="false" Name="鱼王！" Id="c9c57a29-f61f-42ce-9349-34df39875fc9" RegularExpression="{&quot;type&quot;:3}">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="鱼王提钩" UseTTSVolumeExpression="99" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="2" KeypressType="WindowMessage" KeyPressCode="57" KeyPressWindow="最终幻想XIV" ActionType="KeyPress" ExecutionDelayExpression="350">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="3" KeypressType="WindowMessage" KeyPressCode="56" KeyPressWindow="最终幻想XIV" ActionType="KeyPress" ExecutionDelayExpression="100">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="4" KeypressType="WindowMessage" KeyPressCode="52" KeyPressWindow="最终幻想XIV" ActionType="KeyPress" ExecutionDelayExpression="100">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="5" KeypressType="WindowMessage" KeyPressCode="50" KeyPressWindow="最终幻想XIV" ActionType="KeyPress" ExecutionDelayExpression="9000">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="6" KeypressType="WindowMessage" KeyPressCode="50" KeyPressWindow="最终幻想XIV" Enabled="False" ActionType="KeyPress" ExecutionDelayExpression="5000" Description="快捷键2 抛竿 未提钩">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="false" Name="轻肝" Id="6fcb51c1-377b-4858-a281-9fd37e3f42f9" RegularExpression="{&quot;type&quot;:1}">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="轻杆提钩" UseTTSVolumeExpression="99" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="2" KeypressType="WindowMessage" KeyPressCode="57" KeyPressWindow="最终幻想XIV" ActionType="KeyPress" ExecutionDelayExpression="350">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="3" KeypressType="WindowMessage" KeyPressCode="56" KeyPressWindow="最终幻想XIV" ActionType="KeyPress" ExecutionDelayExpression="100">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="4" KeypressType="WindowMessage" KeyPressCode="52" KeyPressWindow="最终幻想XIV" ActionType="KeyPress" ExecutionDelayExpression="100">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="5" KeypressType="WindowMessage" KeyPressCode="50" KeyPressWindow="最终幻想XIV" ActionType="KeyPress" ExecutionDelayExpression="9000">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="6" KeypressType="WindowMessage" KeyPressCode="50" KeyPressWindow="最终幻想XIV" Enabled="False" ActionType="KeyPress" ExecutionDelayExpression="5000" Description="快捷键2 抛竿 未提钩">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="false" Name="提钩按键顺序 9-8-4 我用的舒服 " Id="f60d572c-5c34-499e-a61f-8c780a44a831" RegularExpression="">
+            <Actions />
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+        </Triggers>
+      </Folder>
+      <Folder Id="92c45717-231d-420d-934b-5deaf4ea8f66" Name="不提竿勾选" Enabled="true">
+        <Folders />
+        <Triggers>
+          <Trigger Enabled="false" Name="不提 5s后抛竿 中" Id="4ae2d79a-8729-42cf-bf1e-1232fcfc3523" RegularExpression="{&quot;type&quot;:2}">
+            <Actions>
+              <Action OrderNumber="1" PlaySpeechMyself="True" UseTTSTextExpression="中杆不提" UseTTSVolumeExpression="99" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="2" KeypressType="WindowMessage" KeyPressCode="50" KeyPressWindow="最终幻想XIV" ActionType="KeyPress" ExecutionDelayExpression="5000">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="3" KeypressType="WindowMessage" KeyPressCode="50" KeyPressWindow="最终幻想XIV" ActionType="KeyPress" ExecutionDelayExpression="2000">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="不提 5s后抛竿 鱼王" Id="4d64ec60-49f5-4da4-9e50-0b396e5aeabd" RegularExpression="{&quot;type&quot;:3}">
+            <Actions>
+              <Action OrderNumber="1" PlaySpeechMyself="True" UseTTSTextExpression="鱼王杆不提" UseTTSVolumeExpression="99" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="2" KeypressType="WindowMessage" KeyPressCode="50" KeyPressWindow="最终幻想XIV" ActionType="KeyPress" ExecutionDelayExpression="5000">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="3" KeypressType="WindowMessage" KeyPressCode="50" KeyPressWindow="最终幻想XIV" ActionType="KeyPress" ExecutionDelayExpression="2000">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="不提 5s后抛竿 轻" Id="0a97e467-b65d-4484-b827-2f463cf3c256" RegularExpression="{&quot;type&quot;:1}">
+            <Actions>
+              <Action OrderNumber="1" PlaySpeechMyself="True" UseTTSTextExpression="轻杆不提" UseTTSVolumeExpression="99" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="2" KeypressType="WindowMessage" KeyPressCode="50" KeyPressWindow="最终幻想XIV" ActionType="KeyPress" ExecutionDelayExpression="5000">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="3" KeypressType="WindowMessage" KeyPressCode="50" KeyPressWindow="最终幻想XIV" ActionType="KeyPress" ExecutionDelayExpression="2000">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="false" Name="这个是没钓到鱼重新抛竿的" Id="bb0536c3-3005-4a9d-bc58-80b3031864da" RegularExpression="08C3::没有钓到任何东西……" PrevActions="Interrupt" PrevActionsRefire="Deny" PeriodRefire="Deny">
+            <Actions>
+              <Action OrderNumber="1" KeypressType="WindowMessage" KeyPressCode="50" KeyPressWindow="最终幻想XIV" ActionType="KeyPress" ExecutionDelayExpression="500" Asynchronous="False">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
+        </Triggers>
+      </Folder>
+      <Folder Id="1549b249-05cd-4cd0-983a-e0ba83000884" Name="收藏品提钩" Enabled="true">
+        <Folders />
+        <Triggers>
+          <Trigger Enabled="false" Name="轻竿非收藏品不提钩(这个用来判断xx秒内的xx杆不提钩，建议与收藏品做成互斥事件)" Id="cf386b27-e085-4ffc-a42f-a127a5257f5d" RegularExpression="{&quot;type&quot;:1}">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="非收藏品" UseTTSVolumeExpression="99" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="2" KeypressType="WindowMessage" KeyPressCode="52" KeyPressWindow="最终幻想XIV" Enabled="False" ActionType="KeyPress" ExecutionDelayExpression="350">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="3" KeypressType="WindowMessage" KeyPressCode="96" KeyPressWindow="最终幻想XIV" Enabled="False" ActionType="KeyPress" ExecutionDelayExpression="10050">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="4" KeypressType="WindowMessage" KeyPressCode="96" KeyPressWindow="最终幻想XIV" Enabled="False" ActionType="KeyPress" ExecutionDelayExpression="100">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="5" KeypressType="WindowMessage" KeyPressCode="96" KeyPressWindow="最终幻想XIV" Enabled="False" ActionType="KeyPress" ExecutionDelayExpression="100">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="6" KeypressType="WindowMessage" KeyPressCode="50" KeyPressWindow="最终幻想XIV" Enabled="False" ActionType="KeyPress" ExecutionDelayExpression="300">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="7" KeypressType="WindowMessage" KeyPressCode="50" KeyPressWindow="最终幻想XIV" ActionType="KeyPress" ExecutionDelayExpression="5000">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:diaoyu}" ExpressionTypeL="Numeric" ExpressionR="2" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+            </Condition>
+          </Trigger>
+          <Trigger Enabled="false" Name="钓鱼计时。设置变量 n秒后修改变量值" Id="6ca697d9-2b25-404f-bc08-69fb3ff8d2d9" RegularExpression="08C3::(?&lt;player&gt;.*)在*甩出了鱼线开始钓鱼" PrevActions="Interrupt" PeriodRefire="Deny">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="开始钓鱼" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="2" VariableOp="SetNumeric" VariableName="diaoyu" VariableExpression="1" ActionType="Variable" RefireInterrupt="True" RefireRequeue="False">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="3" UseTTSTextExpression="计数器 ${var:diaoyu} " ActionType="UseTTS" ExecutionDelayExpression="100">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="4" VariableOp="SetNumeric" VariableName="diaoyu" VariableExpression="2" ActionType="Variable" ExecutionDelayExpression="100" RefireInterrupt="True" RefireRequeue="False">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="收藏品 +专一钓鱼" Id="e8533568-caa1-43be-ae69-4f2dce963a55" RegularExpression="{&quot;type&quot;:2}">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="收藏品" UseTTSVolumeExpression="99" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="2" KeypressType="WindowMessage" KeyPressCode="52" KeyPressWindow="最终幻想XIV" ActionType="KeyPress" ExecutionDelayExpression="350" Description="正常提钩键位" DescriptionOverride="True">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="3" KeypressType="WindowMessage" KeyPressCode="96" KeyPressWindow="最终幻想XIV" ActionType="KeyPress" ExecutionDelayExpression="11500" Description="收藏品确认键，多发送几次0确保一定可以" DescriptionOverride="True">
+                <Condition Enabled="true" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="4" KeypressType="WindowMessage" KeyPressCode="96" KeyPressWindow="最终幻想XIV" ActionType="KeyPress" ExecutionDelayExpression="300">
+                <Condition Enabled="true" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="5" KeypressType="WindowMessage" KeyPressCode="96" KeyPressWindow="最终幻想XIV" ActionType="KeyPress" ExecutionDelayExpression="200">
+                <Condition Enabled="true" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="6" KeypressType="WindowMessage" KeyPressCode="81" KeyPressWindow="最终幻想XIV" ActionType="KeyPress" ExecutionDelayExpression="500" Description="专一垂钓键位" DescriptionOverride="True">
+                <Condition Enabled="true" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="7" KeypressType="WindowMessage" KeyPressCode="50" KeyPressWindow="最终幻想XIV" Enabled="False" ActionType="KeyPress" ExecutionDelayExpression="3000" Description="钓鱼x2，防止没按上" DescriptionOverride="True">
+                <Condition Enabled="true" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="8" KeypressType="WindowMessage" KeyPressCode="50" KeyPressWindow="最终幻想XIV" ActionType="KeyPress" ExecutionDelayExpression="3000">
+                <Condition Enabled="true" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or">
+              <ConditionSingle Enabled="false" ExpressionL="${var:diaoyu}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+            </Condition>
+          </Trigger>
+          <Trigger Enabled="false" Name="这个只是测试的" Id="0165632e-e262-4fbd-8404-a479f8d5ad1f" RegularExpression="">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="等于 ${var:diaoyu} " ActionType="UseTTS">
+                <Condition Enabled="true" Grouping="Or">
+                  <ConditionSingle Enabled="true" ExpressionL="${diaoyu}" ExpressionTypeL="Numeric" ExpressionR="2" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                </Condition>
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+        </Triggers>
+      </Folder>
+    </Folders>
+    <Triggers>
+      <Trigger Enabled="false" Name="没有耐心的选项。我用不到" Id="63a77482-7e39-48fa-9eaa-95a76a699b5e" RegularExpression="">
+        <Actions />
+        <Condition Enabled="false" Grouping="Or" />
+      </Trigger>
+    </Triggers>
+  </ExportedFolder>
+</TriggernometryExport>
